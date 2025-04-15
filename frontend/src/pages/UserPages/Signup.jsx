@@ -19,7 +19,7 @@ const Signup = () => {
           required
           id="outlined-required"
           placeholder="Name"
-          onChange={e => setUser({ ...user, email: e.target.value })}
+          onChange={e => setUser({ ...user, name: e.target.value })}
         />
         <TextField
           required
