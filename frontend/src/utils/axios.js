@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const customisedAxios = axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'https://to-do-list-application-0g0o.onrender.com/api',
   timeout: 150000,
 });
 
