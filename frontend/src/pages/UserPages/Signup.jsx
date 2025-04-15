@@ -1,6 +1,6 @@
 import { Button, TextField } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import { useState } from 'react';
+import { use, useState } from 'react';
 
 const Signup = () => {
   const [user, setUser] = useState({
@@ -8,6 +8,8 @@ const Signup = () => {
     email: '',
     password: '',
   });
+
+  console.log(user);
   const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-100 via-blue-400 to-blue-50 flex items-center justify-center">
