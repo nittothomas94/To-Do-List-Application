@@ -12,9 +12,9 @@ const Signin = () => {
         <Button
           variant="contained"
           className="w-full flex items-center content-center active:scale-95"
-          onClick={navigate('/')}
+          onClick={() => navigate('/')}
         >
-          Sign up
+          Sign in
         </Button>
         <p>
           New here?{' '}

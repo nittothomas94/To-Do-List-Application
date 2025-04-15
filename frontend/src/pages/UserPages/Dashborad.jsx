@@ -78,7 +78,7 @@ const Dashborad = () => {
         {/* section 01 */}
         <div className="w-full flex items-center justify-between">
           <h1 className="text-2xl font-medium">Welcome, Nitto!</h1>
-          <Button variant="outlined" onClick={navigate('/signin')}>
+          <Button variant="outlined" onClick={() => navigate('/signin')}>
             Logout
           </Button>
         </div>
