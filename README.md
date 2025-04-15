@@ -14,23 +14,6 @@
 - Responsive design using Tailwind's utility classes.
 
 
-📂 Folder Structure:
-
-frontend/
-├── src/
-│   ├── components/
-│   │   └── TaskCard.jsx
-│   ├── pages/
-│   │   ├── Login.jsx
-│   │   ├── Signup.jsx
-│   │   └── Home.jsx
-│   ├── App.jsx
-│   └── main.jsx
-├── tailwind.config.js
-├── index.html
-└── package.json
-```
-
 🧪 Run Locally:
 
 1. Navigate to the frontend folder:
